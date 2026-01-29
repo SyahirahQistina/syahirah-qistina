@@ -1,0 +1,48 @@
+/*Styling the Header*/
+.header-section{
+    display:flex; /*The Magic Line*/
+    justify-content: space-between; /*Pushes items to opposite ends*/
+    align-items: center; /*Centers items vertically*/
+    padding: 10px 10%;
+    background-color: #276442;
+    color: white;
+}
+
+/*Styling the Main Content*/
+.main-content{
+    background-color: #f4f4f4;
+    padding: 50px;
+    min-height: 200px;/*Gives the middle setion soe height*/
+}
+
+/*Style the Footer*/
+.footer-section{
+    background-color: #222;
+    color: #888;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.main-content{
+    background-color: #ffffff;
+    padding: 40px; /*Space inside*/
+    margin: 20px auto; /*Space outside;'auto'centers the box*/
+    width: 80%; /*Make the box narrower than the screen*/
+    border-radius: 10px;
+}
+
+.cta-button{
+    background-color: #ff4757;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s; /*Makes the change smooth, not instant*/
+}
+
+.cta-button:hover{
+    background-color: #333#ff6b81;
+    transform: translate(-3px); /*Lifts the button up slightly*/
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
